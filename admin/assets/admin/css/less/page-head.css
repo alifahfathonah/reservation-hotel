@@ -1,0 +1,36 @@
+/*Page Title*/
+.page-head {
+    background: #FFFFFF;
+    border-bottom: 1px solid #E9E9E9;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.05);
+    padding: 5px 25px 5px 25px;
+     margin-bottom:20px;
+    position: relative;
+    width:100%;
+    float: left;
+}
+
+.page-head h3 {
+    margin-bottom: 5px;
+    margin-top: 6px;
+    padding: 0px;
+	font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+	letter-spacing:-1px;
+    float: left;
+}
+
+.page-head .breadcrumb {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin-bottom: 5px;
+    padding:0px;
+    margin-top: 12px;
+    float:right;
+}
+
+.page-head .breadcrumb a {  
+    color: #555;
+}
+.page-head .breadcrumb a:hover {  
+    color: #f60;
+}

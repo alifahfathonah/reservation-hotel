@@ -1,0 +1,103 @@
+/*CONFIG AND GENERAL STYLE*/
+@import "less/config.css";
+@import "less/general.css";
+@import "less/helpers.css";
+@import "less/typography.css";
+
+/*HEADER*/
+@import "less/navbar.css";
+@import "less/dropdown-menu.css";
+@import "less/profile-menu.css";
+@import "less/page-head.css";
+@import "less/page-aside.css";
+
+/*BODY*/
+@import "less/main-container.css";
+@import "less/sidebar.css";
+@import "less/block-panels.css";
+@import "less/forms.css";
+
+/*PAGES*/
+@import "less/login.css";
+@import "less/sign-up.css";
+@import "less/404.css";
+@import "less/gallery.css";
+@import "less/page-email.css";
+@import "less/page-profile.css";
+@import "less/page-search.css";
+@import "less/page-code-editor.css";
+
+/*ELEMENTS*/
+@import "less/elements/tables.css";
+@import "less/elements/tiles.css";
+@import "less/elements/charts.css";
+@import "less/elements/color-boxes.css";
+@import "less/elements/small-box.css";
+@import "less/elements/widgets.css";
+@import "less/elements/wizard.css";
+@import "less/elements/tabs.css";
+@import "less/elements/accordions.css";
+@import "less/elements/nestable-lists.css";
+@import "less/elements/switch.css";
+@import "less/elements/select2.css";
+@import "less/elements/slider.css";
+@import "less/elements/chat-widget.css";
+@import "less/elements/alerts.css";
+@import "less/elements/labels_badges.css";
+@import "less/elements/progress.css";
+@import "less/elements/pagination.css";
+@import "less/elements/lists.css";
+@import "less/elements/icons.css";
+@import "less/elements/buttons.css";
+@import "less/elements/modals.css";
+@import "less/elements/circle.css";
+@import "less/elements/gritter.css";
+@import "less/elements/nano-scroll.css";
+@import "less/elements/treeview.css";
+@import "less/elements/timeline.css";
+@import "less/elements/validation.css";
+@import "less/elements/tickets-widget.css";
+@import "less/elements/todo-widget.css";
+@import "less/elements/full-calendar.css";
+@import "less/elements/blockquote.css";
+
+/*RESPONSIVE*/
+@import "less/responsive.css";
+
+
+table tbody tr td.detail {
+  padding-top: 14px !important;
+}
+
+h3.title {
+  margin-top: 0px;
+  margin-bottom: 30px !important;
+}
+
+.buyers {
+}
+
+.list {
+  padding: 10px 10px 0px 10px;
+  margin: 0px;
+}
+
+.list li {
+  padding: 10px;
+  background: green;
+  list-style: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.list li a {
+  color: #fff;
+}
+
+.list li.active {
+  background: orange;
+}
+
+.list li a:hover {
+  color: yellow;
+}
